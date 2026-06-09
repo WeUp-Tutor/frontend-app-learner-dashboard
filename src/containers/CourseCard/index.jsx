@@ -30,14 +30,12 @@ export const CourseCard = ({
                 actions={<CourseCardMenu cardId={cardId} />}
               />
               <Card.Section className="pt-0">
-                <CourseCardDetails cardId={cardId} />
               </Card.Section>
               <Card.Footer orientation={orientation}>
                 <CourseCardActions cardId={cardId} />
               </Card.Footer>
             </Card.Body>
           </div>
-          <CourseCardBanners cardId={cardId} />
         </div>
       </Card>
     </div>
