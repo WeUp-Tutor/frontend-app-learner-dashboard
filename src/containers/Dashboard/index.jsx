@@ -20,7 +20,7 @@ export const Dashboard = () => {
   const hasCourses = useMemo(() => data?.courses?.length > 0, [data]);
 
   return (
-    <div id="dashboard-container" className="d-flex flex-column p-2 pt-0">
+    <div id="dashboard-container" className="d-flex flex-column p-2 pt-0" style={{minHeight: "75vh"}}>
       <h1 className="sr-only">{pageTitle}</h1>
       {!isPending && (
         <>
