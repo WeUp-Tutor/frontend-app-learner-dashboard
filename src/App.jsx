@@ -17,6 +17,7 @@ import { useInitializeLearnerHome } from 'data/hooks';
 import { useMasquerade } from 'data/context';
 import messages from './messages';
 import './App.scss';
+import CustomCSSLoader from 'components/custom/CustomCSSLoader';
 
 export const App = () => {
   const { formatMessage } = useIntl();
@@ -45,6 +46,7 @@ export const App = () => {
               )}
           </main>
         </AppWrapper>
+        <CustomCSSLoader />
         <CustomFooter/>
 
       </div>
