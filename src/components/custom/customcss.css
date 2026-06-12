@@ -4,6 +4,13 @@
 
 
 
-a[href*="/undefined/u/"] {
+
+
+a[href*="undefined/u/"] {
+    display: none!important;
+}
+
+
+a[href*="/u/"] {
     display: none!important;
 }
