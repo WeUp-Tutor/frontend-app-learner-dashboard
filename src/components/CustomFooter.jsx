@@ -3,6 +3,8 @@ import React from 'react';
 
 const footerCss = `
           .wrapper-footer {
+            position: relative;
+            bottom: -20vh;
             background-color: #283940 !important;
             color: #ffffff !important;
             padding: 40px 24px 36px;
