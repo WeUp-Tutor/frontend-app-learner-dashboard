@@ -8,7 +8,7 @@ import { FooterSlot } from '@edx/frontend-component-footer';
 import { Alert } from '@openedx/paragon';
 
 import Dashboard from 'containers/Dashboard';
-
+import CustomFooter from 'components/CustomFooter';
 import AppWrapper from 'containers/AppWrapper';
 import LearnerDashboardHeader from 'containers/LearnerDashboardHeader';
 
@@ -45,7 +45,8 @@ export const App = () => {
               )}
           </main>
         </AppWrapper>
-        <FooterSlot />
+        <CustomFooter/>
+
       </div>
     </>
   );
