@@ -115,13 +115,13 @@ export const CustomFooter = ({}) => (
         <div className="footer__inner">
           <div className="footer__logos">
             <img
-              src="https://hexafret.weup.in/static/indigo/images/logo-white.png"
+              src="https://decouverte-metiers.sncf.hexafret.net/static/indigo/images/logo-white.png"
               alt="Hexafret"
               className="footer__logo footer__logo--hexafret"
             />
 
             <img
-              src="https://hexafret.weup.in/static/indigo/images/logo-rl_eu.png"
+              src="https://decouverte-metiers.sncf.hexafret.net/static/indigo/images/logo-rl_eu.png"
               alt="Rail Logistics Europe"
               className="footer__logo footer__logo--rle"
             />
@@ -132,19 +132,13 @@ export const CustomFooter = ({}) => (
           <nav className="footer__nav" aria-label="Liens légaux">
             <a
               style={{ color: "#ffffff" }}
-              href="https://hexafret.weup.in/tos"
+              href="https://decouverte-metiers.sncf.hexafret.net/tos"
               className="footer__link"
             >
               Mentions légales
             </a>
 
-            <a
-              style={{ color: "#ffffff" }}
-              href="https://hexafret.weup.in/privacy"
-              className="footer__link"
-            >
-              Politique de données personnelles
-            </a>
+
           </nav>
         </div>
 
