@@ -30,10 +30,7 @@ export const LearnerDashboardHeader = () => {
   return (
     <>
       <ConfirmEmailBanner />
-      <Header
-        mainMenuItem=[]
-        secondaryMenuItems=[]
-      />
+      <Header mainMenuItems={[]} secondaryMenuItems={[]}  />
       <MasqueradeBar />
     </>
   );

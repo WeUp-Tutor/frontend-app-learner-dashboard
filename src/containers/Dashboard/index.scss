@@ -2,18 +2,11 @@
   padding: 0 var(--pgn-spacing-spacer-4);
 }
 
-.sidebar-column {
-  background-color: red;
-}
-#course-filter-controls , .course-card-banners {
-  display: none;
+#course-filter-controls , .course-card-banners , .sidebar-column, #dashboard-container .container-mw-xl.container-fluid .row .course-list-column .course-card .pgn__card .pgn__card-section, .course-card-banners , #course-filter-controls .btn {
+  display: none !important;
 }
 
+.btn {
+  background-color : #1d5659; 
 
-
-.course-card {
-  width:300px;
-}
-.pgn__card > .flex-column > .d-flex{
-  flex-direction : column;
 }

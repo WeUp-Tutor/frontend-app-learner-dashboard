@@ -51,7 +51,7 @@ export const App = () => {
           supportedLanguages={[
             { label: 'English', value: 'en' },
             { label: 'Français', value: 'fr' },
-          ]},
+          ]}
           onLanguageSelected={()=>{}}
           logo={null}
         />

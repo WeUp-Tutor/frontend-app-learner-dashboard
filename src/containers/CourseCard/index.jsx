@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { Card } from '@openedx/paragon';
 
 import { useIsCollapsed } from './hooks';
-import CourseCardBanners from './components/CourseCardBanners';
 import CourseCardImage from './components/CourseCardImage';
 import CourseCardMenu from './components/CourseCardMenu';
 import CourseCardActions from './components/CourseCardActions';
@@ -37,7 +36,6 @@ export const CourseCard = ({
               </Card.Footer>
             </Card.Body>
           </div>
-          <CourseCardBanners cardId={cardId} />
         </div>
       </Card>
     </div>
