@@ -3,25 +3,17 @@
 }
 
 .sidebar-column {
-  padding: 0 var(--pgn-spacing-spacer-3) 0 var(--pgn-spacing-spacer-1);
-
-  &.not-collapsed {
-    padding-top: var(--pgn-spacing-spacer-2);
-
-    & >:first-child {
-      margin-top: var(--pgn-spacing-spacer-5-5);
-    }
-  }
+  background-color: red;
+}
+#course-filter-controls , .course-card-banners {
+  display: none;
 }
 
-@media (--pgn-size-breakpoint-max-width-lg) {
-  .sidebar-column {
-    // grid are inheriting dir="ltr" from the body, so we need to override it
-    [dir=ltr] & {
-      padding: 0 var(--pgn-spacing-spacer-3);
-    }
-    [dir=rtl] & {
-      padding: 0 var(--pgn-spacing-spacer-3);
-    }
-  }
+
+
+.course-card {
+  width:300px;
+}
+.pgn__card > .flex-column > .d-flex{
+  flex-direction : column;
 }

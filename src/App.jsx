@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 import { useIntl } from '@edx/frontend-platform/i18n';
 
 import { ErrorPage } from '@edx/frontend-platform/react';
-import { FooterSlot } from '@edx/frontend-component-footer';
 import { Alert } from '@openedx/paragon';
 
 import Dashboard from 'containers/Dashboard';
+import SiteFooter from '@edx/frontend-component-footer';
 
 import AppWrapper from 'containers/AppWrapper';
 import LearnerDashboardHeader from 'containers/LearnerDashboardHeader';
@@ -17,6 +17,7 @@ import { useInitializeLearnerHome } from 'data/hooks';
 import { useMasquerade } from 'data/context';
 import messages from './messages';
 import './App.scss';
+
 
 export const App = () => {
   const { formatMessage } = useIntl();
@@ -45,7 +46,16 @@ export const App = () => {
               )}
           </main>
         </AppWrapper>
-        <FooterSlot />
+
+        <SiteFooter
+          supportedLanguages={[
+            { label: 'English', value: 'en' },
+            { label: 'Français', value: 'fr' },
+          ]},
+          onLanguageSelected={()=>{}}
+          logo={null}
+        />
+
       </div>
     </>
   );
