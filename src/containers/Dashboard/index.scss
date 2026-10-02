@@ -6,6 +6,14 @@
   display: none !important;
 }
 
-.btn {
+.pgn__card-body .btn {
   background-color : #7C1A00;
+}
+
+.btn:not(:disabled,.disabled,.btn-link):hover {
+  background-color : #FF6833;
+}
+
+#dashboard-container {
+  min-height: 81vh;
 }
