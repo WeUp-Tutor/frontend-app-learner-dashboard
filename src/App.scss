@@ -27,6 +27,11 @@ $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get up
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url("./assets/bckg_dashboard.png");
+  background-position: bottom center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
 
   main {
     flex-grow: 1;
