@@ -22,6 +22,18 @@
   align-self: center;
 }
 
+.course-list-container > div:nth-child(2) {
+  width: calc(90vw - 76px);
+  margin: 20px 5vw;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card {
+  width: 32%;
+}
+
+
 @media (--pgn-size-breakpoint-max-width-md) {
   .course-list-heading-container {
     flex-direction: column-reverse;
