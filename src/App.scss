@@ -64,3 +64,10 @@ $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get up
     overflow: hidden;
   }
 }
+
+.course-list-column h2 {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto 50px auto;
+}
+

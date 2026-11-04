@@ -11,7 +11,7 @@ export const columnConfig = {
   courseList: {
     withSidebar: {
       lg: { span: 12, offset: 0 },
-      xl: { span: 8, offset: 0 },
+      xl: { span: 12, offset: 0 },
     },
     noSidebar: {
       lg: { span: 12, offset: 0 },
