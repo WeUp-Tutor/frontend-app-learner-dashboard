@@ -20,6 +20,10 @@ export const CourseCardActions = ({ cardId }) => {
   return (
     <ActionRow data-test-id="CourseCardActions">
       <CourseCardActionSlot cardId={cardId} />
+
+      <p>2H30</p>
+      <p>{{cardId}}</p>
+
       {isEntitlement && (isFulfilled
         ? <ViewCourseButton cardId={cardId} />
         : <SelectSessionButton cardId={cardId} />
