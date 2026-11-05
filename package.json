@@ -29,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@edx/brand": "git+https://github.com/WeUp-Tutor/brand-openedx.git#brand/osac",
+    "@edx/brand": "git+https://github.com/WeUp-Tutor/brand-openedx.git#1a83afe889d55861399dcfe25fbb40829613d395",
     "@edx/frontend-component-footer": "git+https://github.com/WeUp-Tutor/frontend-component-footer.git#8c3bd2b260e6f041da4604a9422770b9eb9a69e8",
     "@edx/frontend-component-header": "git+https://github.com/WeUp-Tutor/frontend-component-header.git#e565b7289e22808bfa78275d9e1cc37b07df6db8",
     "@edx/frontend-enterprise-hotjar": "7.2.0",

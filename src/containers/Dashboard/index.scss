@@ -16,4 +16,18 @@
 
 .course-card {
   border: #0F2D4D solid 2px;
+  border-radius: 8px;
+}
+
+
+.course-card .pgn__action-row {
+  justify-content: space-between !important;
+}
+
+.course-card .pgn__action-row {
+  background-color: #FF921E;
+  color: white;
+  padding: 5px 8px;
+  font-weight: 700;
+  border-radius: 6px; 
 }
