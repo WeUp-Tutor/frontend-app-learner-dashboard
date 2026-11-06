@@ -27,10 +27,12 @@
   margin: 20px 5vw;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .course-card {
   width: 32%;
+  min-width: 300px;
 }
 
 
