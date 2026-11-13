@@ -14,10 +14,11 @@ import ViewCourseButton from './ViewCourseButton';
 
 // Table de correspondance course_id -> durée
 const COURSE_DURATIONS = {
-  'course-v1:sncf-voyageurs+01+2026': '2H30',
-  'course-v1:sncf-voyageurs+12+2027': '1H45',
+  'course-v1:osac+01+2027': '2H30',
+  'course-v1:osac+novembre+2026': '2H30',
+  'course-v1:osac+decembre+2026': '1H45',  
 };
-const DEFAULT_DURATION = null;
+const DEFAULT_DURATION = '2H30';
 
 
 export const CourseCardActions = ({ cardId }) => {

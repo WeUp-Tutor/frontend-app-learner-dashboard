@@ -34,6 +34,14 @@ $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get up
 
   main {
     flex-grow: 1;
+    .card {
+      background-color: #D9E4F1 !important;
+      box-shadow: 2px 7px 10px rgba(0,0,0,0.4) !important;
+
+      .pgn__card-wrapper-image-cap {
+        max-width: unset !important;
+      }
+    }
   }
 
   header {
