@@ -30,7 +30,6 @@ $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get up
   background-image: url("./assets/bckg_dashboard.png");
   background-position: bottom center;
   background-size: cover;
-  height: 100vh;
   background-repeat: no-repeat;
 
   main {
@@ -76,3 +75,6 @@ $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get up
   margin: 20px auto 50px auto;
 }
 
+#dashboard-content > .container-mw-xl, .pgn__card .pgn__card-wrapper-image-cap.horizontal {
+  max-width: unset !important
+}
